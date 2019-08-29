@@ -25,7 +25,8 @@ input[type ='text'] {
 
 @media only screen and (max-width: 800px) {
   .inputs {
-    width: 400px;
+    /*width: 400px;*/
+    padding: 0 20px;
     font-size: 1em;
     grid-template-columns: 1fr;
   }
