@@ -1,1 +1,1 @@
-<?php include_once("center_of_gravity.html"); ?>
+<?php include_once("index.html"); ?>
