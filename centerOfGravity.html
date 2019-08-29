@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Center of Gravity</title>
+    <link rel="stylesheet" href="centerOfGravity.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.9.0/d3.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-blue.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </head>
+  <body>
+    <h3>Center of Gravity Calculator</h3>
+    <h5>Enter the values below and click "calculate" to calculate the distance from the base of an isosceles trapezoid to its center of gravity.</h5>
+    <div class="inputs">
+      <label for="topWidth">Width at Top (in inches): </label>
+      <input type="text" name="topWidth" id="topWidth">
+      <label for="bottomWidth">Width at Bottom (in inches): </label>
+      <input type="text" name="bottomWidth" id="bottomWidth">
+      <label for="height">Height (in feet): </label>
+      <input type="text" name="height" id="height">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="calculate">Calculate</button>
+    </div>
+    <h3>Result:</h3>
+    <h2 id="result"></h2>
+
+    <script src="centerOfGravity.js"></script>
+  </body>
+</html>
